@@ -2,6 +2,7 @@ name: hello-world
 on: push
 jobs:
   my-job:
+    environment: env-test-1
     runs-on: ubuntu-latest
     steps:
       - name: my-step
